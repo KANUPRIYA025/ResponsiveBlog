@@ -1,0 +1,38 @@
+.contact-content {
+    height: 100vh;
+  /* background-color: rgb(243, 159, 159);*/
+   margin-top: 32px;
+   padding: 9px; 
+    position: relative;
+    font-family: var(--font3);
+overflow: hidden;
+}
+
+.contact-content::after{
+content: "";
+background-image: url('../img/im8.svg');
+position:absolute;
+top: 0;
+width: 100%;
+height: inherit;
+opacity: 0.18;
+border-radius: 18px;
+z-index: -1;
+}
+
+.home-form{
+    padding: 18px;
+    margin-top: 23px;
+  
+}
+
+.form-box input{
+    border: 2px solid #000089;
+    border-radius: 3px;
+}
+
+.form-box textarea{
+    border: 2px solid #000050;
+    border-radius: 3px;
+}
+
